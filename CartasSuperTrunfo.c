@@ -37,7 +37,7 @@ int main() {
     printf("O Produto Interno Bruto da cidade: ");
     scanf("%f", &pib);
     printf("A quantidade de pontos turísticos na cidade: ");
-    scanf("%d \n", &turismo); //Espaçar mais o conteúdo
+    scanf("%d", &turismo);
 
     // Informações da segunda carta:
     printf("Dados salvos. Agora, insira os dados da sua segunda carta\n");
