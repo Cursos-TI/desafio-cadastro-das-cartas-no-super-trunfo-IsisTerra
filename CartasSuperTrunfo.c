@@ -67,8 +67,8 @@ int main()
 
     /*Calcular o Super Poder: Para cada carta, calcule o "Super Poder" somando todos os atributos numéricos (população, área, PIB, número de pontos turísticos, PIB per capita e o inverso da densidade populacional – quanto menor a densidade, maior o "poder")*/
 
-    superPoder = (float)populacao + area + (pib * 1000000000) + (float)turismo + pibPerCapita - densPop;
-    superPoder2 = (float)(populacao2 + area2 + (pib2 * 1000000000) + (float)turismo2 + pibPerCapita2 - densPop2);
+    superPoder = (float)populacao + area + (pib * 1000000000) + (float)turismo + pibPerCapita + (1 / densPop);
+    superPoder2 = (float)(populacao2 + area2 + (pib2 * 1000000000) + (float)turismo2 + pibPerCapita2 + (1 / densPop2));
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
